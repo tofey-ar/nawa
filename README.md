@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Nawa Logo](https://via.placeholder.com/200x200/2196F3/FFFFFF?text=نواة)
+![Nawa Logo](https://j.top4top.io/p_3701n2bin1.jpg)
 
 ## 🌟 نواة - لغة البرمجة العربية المتقدمة
 
