@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nawa-lang"
+version = "1.0.0"
+description = "Nawa - Advanced Arabic Programming Language"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Nawa Team", email = "nawa.lang@example.com"}
+]
+keywords = ["arabic", "programming", "language", "نواة", "برمجة", "عربي"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Topic :: Software Development :: Interpreters",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Natural Language :: Arabic",
+]
+
+[project.scripts]
+nawa = "nawa:main"
+
+[project.urls]
+Homepage = "https://github.com/nawa-lang/nawa"
+Documentation = "https://github.com/nawa-lang/nawa#readme"
+Repository = "https://github.com/nawa-lang/nawa"
+Issues = "https://github.com/nawa-lang/nawa/issues"

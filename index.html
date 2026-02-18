@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نواة - لغة البرمجة العربية</title>
+    <style>
+        :root {
+            --primary: #2196F3;
+            --secondary: #4CAF50;
+            --accent: #FF9800;
+            --dark: #333;
+            --light: #f5f5f5;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: var(--light);
+            color: var(--dark);
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+        
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .feature {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        .code-example {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 1.5rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            direction: rtl;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: var(--secondary);
+        }
+        
+        .btn-outline {
+            background: transparent;
+            border: 2px solid white;
+        }
+        
+        .btn-outline:hover {
+            background: white;
+            color: var(--primary);
+        }
+        
+        .cta {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            margin-top: 3rem;
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .badges {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+        
+        .badge {
+            background: var(--light);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>⚛️ نواة</h1>
+        <p>لغة البرمجة العربية المتقدمة</p>
+        <p style="margin-top: 0.5rem;">Nawa Programming Language</p>
+        
+        <div style="margin-top: 2rem;">
+            <a href="https://github.com/tofey-ar/nawa" class="btn btn-outline">🌟 GitHub</a>
+            <a href="#start" class="btn">🚀 ابدأ الآن</a>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section id="about">
+            <h2 style="text-align: center; margin-bottom: 2rem;">ما هي نواة؟</h2>
+            <p style="text-align: center; font-size: 1.1rem; max-width: 800px; margin: 0 auto;">
+                نواة هي لغة برمجة عربية متكاملة تمكنك من بناء مواقع ويب، تطبيقات، قواعد بيانات، 
+                والتعامل مع الملفات باستخدام كلمات مفتاحية عربية بحتة.
+            </p>
+        </section>
+        
+        <div class="badges">
+            <span class="badge">🌐 عربية بالكامل</span>
+            <span class="badge">🆓 مفتوحة المصدر</span>
+            <span class="badge">📚 سهلة التعلم</span>
+            <span class="badge">🚀 قوية</span>
+        </div>
+        
+        <section class="features">
+            <div class="feature">
+                <h3>🌐 تطوير الويب</h3>
+                <p>أنشئ مواقع ويب كاملة باستخدام خادم ويب مدمج ودعم لـ HTML و JSON</p>
+                <div class="code-example" style="margin-top: 1rem;">
+متغير خادم = خادم_ويب(8080)
+خادم.رابط('/', الرئيسية)
+خادم.شغل()
+                </div>
+            </div>
+            
+            <div class="feature">
+                <h3>💾 قواعد البيانات</h3>
+                <p>تعامل مع قواعد بيانات SQLite بسهولة</p>
+                <div class="code-example" style="margin-top: 1rem;">
+متغير db = قاعدة_بيانات('app.db')
+db.نفذ('CREATE TABLE users (id, name)')
+                </div>
+            </div>
+            
+            <div class="feature">
+                <h3>📁 نظام الملفات</h3>
+                <p>قراءة، كتابة، ونسخ الملفات والمجلدات</p>
+                <div class="code-example" style="margin-top: 1rem;">
+اكتب_ملف('ملف.txt', 'محتوى')
+متغير نص = اقرا_ملف('ملف.txt')
+                </div>
+            </div>
+            
+            <div class="feature">
+                <h3>🔐 التشفير</h3>
+                <p>دوال تشفير MD5, SHA256, SHA512</p>
+                <div class="code-example" style="margin-top: 1rem;">
+متغير مشفر = هاش_شا256('نص')
+                </div>
+            </div>
+            
+            <div class="feature">
+                <h3>🌍 HTTP Client</h3>
+                <p>اتصل بـ APIs واجلب البيانات</p>
+                <div class="code-example" style="margin-top: 1rem;">
+متغير رد = http_جلب('https://api.example.com')
+                </div>
+            </div>
+            
+            <div class="feature">
+                <h3>📦 JSON</h3>
+                <p>تحويل من وإلى JSON بسهولة</p>
+                <div class="code-example" style="margin-top: 1rem;">
+متغير json = الى_جسون({"م": 1})
+متغير بيانات = من_جسون(json)
+                </div>
+            </div>
+        </section>
+        
+        <section id="start" style="margin-top: 4rem;">
+            <h2 style="text-align: center; margin-bottom: 2rem;">🚀 ابدأ الآن</h2>
+            
+            <div style="background: white; padding: 2rem; border-radius: 10px; margin-bottom: 2rem;">
+                <h3>التثبيت</h3>
+                <div class="code-example" style="direction: ltr; text-align: left;">
+pip install nawa-lang
+                </div>
+                
+                <h3 style="margin-top: 1.5rem;">أو تشغيل مباشر</h3>
+                <div class="code-example" style="direction: ltr; text-align: left;">
+python nawa.py برنامج.nawa
+                </div>
+            </div>
+            
+            <div style="text-align: center;">
+                <a href="https://github.com/tofey-ar/nawa" class="btn">📥 تحميل من GitHub</a>
+                <a href="https://github.com/tofey-ar/nawa/blob/main/README_NAWA.md" class="btn" style="background: var(--secondary); margin-right: 1rem;">📚 التوثيق</a>
+            </div>
+        </section>
+        
+        <section class="cta">
+            <h2>جاهز للبدء؟</h2>
+            <p style="margin: 1rem 0;">انضم إلى مجتمع نواة وابدأ البرمجة بالعربية!</p>
+            <a href="https://github.com/tofey-ar/nawa" class="btn btn-outline">🌟 Star on GitHub</a>
+        </section>
+    </div>
+    
+    <footer>
+        <p>صنع بحب ❤️ باللغة العربية</p>
+        <p style="margin-top: 0.5rem;">© 2024 نواة - لغة البرمجة العربية</p>
+        <p style="margin-top: 1rem;">
+            <a href="https://github.com/tofey-ar/nawa" style="color: white;">GitHub</a> |
+            <a href="https://github.com/tofey-ar/nawa/blob/main/README_NAWA.md" style="color: white;">التوثيق</a> |
+            <a href="https://github.com/tofey-ar/nawa/blob/main/CONTRIBUTING.md" style="color: white;">ساهم معنا</a>
+        </p>
+    </footer>
+</body>
+</html>
