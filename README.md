@@ -10,8 +10,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![GitHub stars](https://img.shields.io/github/stars/nawa-lang/nawa.svg)](https://github.com/nawa-lang/nawa/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/nawa-lang/nawa.svg)](https://github.com/nawa-lang/nawa/issues)
+[![GitHub stars](https://img.shields.io/github/stars/tofey-ar/nawa.svg)](https://github.com/tofey-ar/nawa/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/tofey-ar/nawa.svg)](https://github.com/tofey-ar/nawa/issues)
 
 [العربية](#عربي) | [English](#english)
 
@@ -46,12 +46,12 @@
 
 #### الطريقة 1: عبر pip
 ```bash
-pip install nawa-lang
+pip install nawa
 ```
 
 #### الطريقة 2: من المصدر
 ```bash
-git clone https://github.com/nawa-lang/nawa.git
+git clone https://github.com/tofey-ar/nawa.git
 cd nawa
 python setup.py install
 ```
@@ -112,7 +112,7 @@ db.نفذ('INSERT INTO users VALUES (?, ?)', [1, 'أحمد'])
 ### 📞 تواصل معنا
 
 - 📧 Email: nawa.lang@example.com
-- 💬 GitHub Issues: [افتح Issue جديد](https://github.com/nawa-lang/nawa/issues)
+- 💬 GitHub Issues: [افتح Issue جديد](https://github.com/tofey-ar/nawa/issues)
 - 🐦 Twitter: @nawa_lang (قريباً)
 
 ### 📄 الترخيص
@@ -146,12 +146,12 @@ db.نفذ('INSERT INTO users VALUES (?, ?)', [1, 'أحمد'])
 
 #### Method 1: Via pip
 ```bash
-pip install nawa-lang
+pip install nawa
 ```
 
 #### Method 2: From source
 ```bash
-git clone https://github.com/nawa-lang/nawa.git
+git clone https://github.com/tofey-ar/nawa.git
 cd nawa
 python setup.py install
 ```
@@ -212,7 +212,7 @@ We welcome contributions! Read our [Contributing Guide](CONTRIBUTING.md)
 ### 📞 Contact Us
 
 - 📧 Email: nawa.lang@example.com
-- 💬 GitHub Issues: [Open new Issue](https://github.com/nawa-lang/nawa/issues)
+- 💬 GitHub Issues: [Open new Issue](https://github.com/tofey-ar/nawa/issues)
 - 🐦 Twitter: @nawa_lang (coming soon)
 
 ### 📄 License
@@ -227,14 +227,14 @@ Licensed under [MIT License](LICENSE)
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=nawa-lang/nawa&type=Date)](https://star-history.com/#nawa-lang/nawa&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=tofey-ar/nawa&type=Date)](https://star-history.com/#tofey-ar/nawa&Date)
 
 ## 🏆 Contributors
 
 Thanks to all our contributors!
 
-<a href="https://github.com/nawa-lang/nawa/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=nawa-lang/nawa" />
+<a href="https://github.com/tofey-ar/nawa/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=tofey-ar/nawa" />
 </a>
 
 ---
@@ -243,6 +243,6 @@ Thanks to all our contributors!
 
 **صنع بحب ❤️ للمجتمع الناطق بالعربية**
 
-[Website](https://nawa-lang.github.io) | [Documentation](README_NAWA.md) | [Examples](examples/)
+[Website](https://tofey-ar.github.io) | [Documentation](README_NAWA.md) | [Examples](examples/)
 
 </div>
